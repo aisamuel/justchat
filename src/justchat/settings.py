@@ -146,7 +146,8 @@ REST_FRAMEWORK = {
     ),
 }
 CORS_ORIGIN_WHITELIST = (
-    'localhost:1234',
+    'http://localhost:1234',
+    'http://localhost:53226',
 )
 
 ACCOUNT_EMAIL_REQUIRED = False
